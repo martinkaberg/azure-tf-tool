@@ -36,7 +36,7 @@ the validate api.  It will also look for all the parameter values in the RG and 
     * ../cli.py generate-vars --template-file azuredeploysubnet.json  --params-file azuredeploysubnet.parameters.json > vars.tf
     * terraform init
     * terraform apply
-    * python ../cli.py validate-deployment --resource-group <RG NAME> --template-file azuredeploysubnet.json --params-file azuredeploysubnet.parameters.json
+    * python ../cli.py validate-deployment --resource-group [RG NAME] --template-file azuredeploysubnet.json --params-file azuredeploysubnet.parameters.json
 
 
 
