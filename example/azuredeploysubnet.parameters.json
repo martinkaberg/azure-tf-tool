@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "nc-spoke-dev-vnet"
+    },
+    "vnetAddressPrefix": {
+      "value": "10.115.16.0/21"
+    },
+    "subnet1Name": {
+      "value": "backend"
+    },
+    "subnet1Prefix": {
+      "value": "10.115.16.0/23"
+    },
+    "subnet2Name": {
+      "value": "application"
+    },
+    "subnet2Prefix": {
+      "value": "10.115.18.0/23"
+    },
+    "subnet3Name": {
+      "value": "frontend"
+    },
+    "subnet3Prefix": {
+      "value": "10.115.20.0/23"
+    },
+    "subnet4Name": {
+      "value": "appgatewaysubnet"
+    },
+    "subnet4Prefix": {
+      "value": "10.115.22.0/28"
+    },
+    "dnsServers": {
+      "value": ["8.8.8.8", "8.8.4.4"]
+    }
+  }
+}
